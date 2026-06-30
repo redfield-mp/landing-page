@@ -1,49 +1,47 @@
 # MyBike — landing page
 
-A responsive single-page landing for **MyBike** electric bikes, built from a design mockup using the BEM methodology with SCSS and bundled with Vite.
+A responsive single-page landing for the **MyBike** electric bike brand. The page presents the product through several sections — hero, about, bike comparison, feature details, and a contact form — and adapts its layout to mobile, tablet, and desktop screens.
 
-## Demo
+## Live Preview
 
 - [DEMO LINK](https://redfield-mp.github.io/landing-page/)
 
-## Technologies
+## Design Reference
 
-- HTML5 (semantic markup, BEM)
-- SCSS (variables, mixins, modular structure)
-- Vite — dev server and build
-- Stylelint, Prettier, LintHTML — linting and formatting
-- Cypress — e2e tests
+- [Figma design](https://www.figma.com/design/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0-1)
+
+## Technologies Used
+
+- HTML5 (semantic markup, BEM methodology)
+- SCSS (variables, mixins, modular partials)
+- Vite (dev server and production build)
+- ESLint, Stylelint, Prettier (linting and formatting)
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/redfield-mp/landing-page.git
+cd landing-page
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project locally:
+
+```bash
+npm start
+```
 
 ## Features
 
-- Responsive layout (mobile, tablet, and desktop)
-- Burger menu for mobile devices (via `:target`, no JS required)
-- Sections: Hero, About, Compare Bikes, Details, Contacts
-- Contact form
-- Interactive states (hover, focus) for links and buttons
-
-## Structure
-
-```
-src/
-├── images/        # images and icons
-├── scripts/       # JavaScript
-└── styles/        # SCSS partials and the main main.scss
-index.html         # page markup
-```
-
-## Getting started
-
-```bash
-# install dependencies
-npm install
-
-# start the dev server
-npm start
-
-# build for production
-npm run build
-
-# run linters and tests
-npm test
-```
+- Fully responsive layout (mobile, tablet, and desktop)
+- Mobile navigation with a burger menu opened via `:target` (no JavaScript)
+- Bike comparison cards with images, descriptions, and prices
+- Contact form with validation
+- Interactive hover and focus states for links and buttons
