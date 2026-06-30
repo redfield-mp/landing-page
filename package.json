@@ -2,6 +2,7 @@
   "name": "landing-page",
   "version": "1.0.0",
   "description": "Landing page",
+  "homepage": "landing-page",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start -l",
